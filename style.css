@@ -1,0 +1,324 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header and Navigation */
+header {
+
+    background-color: #004d40;
+    padding: 10px 0;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: 2px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00796b;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e0f7fa;
+}
+
+#home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+#home p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#home button a {
+    background-color: #00796b;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#home button a:hover {
+    background-color: #004d40;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+#about p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+#about h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #00796b;
+}
+
+#about ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#about ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Donate Section */
+#donate {
+    padding: 40px 20px;
+    background-color: #e0f2f1;
+    text-align: center;
+}
+
+#donate h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+#donate form {
+    margin: 20px 0;
+}
+
+#donate input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#donate input[type="submit"] {
+    padding: 10px 30px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#donate input[type="submit"]:hover {
+    background-color: #004d40;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+#contact form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+    padding: 10px 30px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #004d40;
+}
+.head{
+   
+    
+    text-align: center;
+
+}
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #e0f7fa;
+}
+/* tsap*/
+#wha-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    color:seagreen;
+}
+
+#wha-button img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#wha-button img:hover {
+    transform: scale(1.1);
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.kk {
+    background-image: url('PWDS-2-650x432.jpg');
+    background-size: cover; 
+  
+    z-index: -60; 
+    width: 100%; 
+    height: 500px; 
+}
+/* Style for the back to top button */
+#backToTopBtn {
+    background-color: #00796b; 
+    color: white ;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+margin-bottom: 10px;
+position: sticky;
+top: 90vh;
+}
+
+#backToTopBtn:hover {
+    background-color: #004d40; /* Darker on hover */
+}
+
+.carousel img {
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+
+
+/* Set up the initial positions of images off-screen */
+.carousel img:not(:first-child) {
+    transform: translateX(100%);
+}
+#home{
+    width: 100%;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+nav ul li a{
+        /* flex-direction: column; */ 
+          font-size: .7rem;
+    }
+
+    #contact form, #donate form {
+        width: 100%;
+    }
+
+    #contact input, #donate input {
+        width: 100%;
+    }
+}
